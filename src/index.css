@@ -38,6 +38,9 @@ ul li a {
   margin-bottom: 20px;
   box-sizing: border-box;
 }
+.col-sm-12, .col-md-6, .col-lg-6{
+  padding: 0!important;
+}
 .content h2 {
   padding: 0;
   margin: 0;
