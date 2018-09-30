@@ -3,7 +3,8 @@ import React, { Component } from "react";
 class Home extends Component {
   render() {
     return (
-      <div>
+      <div className="row Home">
+        <div class="col-sm-12 col-md-10 col-lg-10 offset-lg-1 offset-md-1">
         <h2>HELLO</h2>
         <p>eLimu is one of the most talked about EdTech
         companies in Africa and the leading digital educational content
@@ -14,6 +15,7 @@ class Home extends Component {
         and test scores.</p>
  
         <p>Duis a turpis sed lacus dapibus elementum sed eu lectus.</p>
+        </div>
       </div>
     );
   }
