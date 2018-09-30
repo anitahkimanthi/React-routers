@@ -30,7 +30,7 @@ handleInputChange = (event)=>{
   render() {
     return (
       <div className="container-fluid ">
-      <div className="row Login">
+      <div className="row register">
       <div className="col-sm-12 col-md-6 col-lg-6 offset-lg-3">
           <div className="Form">
 

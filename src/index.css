@@ -26,6 +26,9 @@ ul li a {
 .checkbox{
   color: grey;
 }
+.register{
+  margin-top: 20px;
+}
 .header{
   background-color:#7fc7c7;
   padding: 0;
@@ -52,6 +55,7 @@ ul li a {
   border-radius: 3px;
 
 }
+
 button a{
   text-decoration: none;
   color: #fff;

@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class Home extends Component {
   render() {
     return (
-      <div className="row Home">
+      <div className="row content">
         <div class="col-sm-12 col-md-10 col-lg-10 offset-lg-1 offset-md-1">
         <h2>HELLO</h2>
         <p>eLimu is one of the most talked about EdTech
