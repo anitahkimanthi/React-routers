@@ -37,7 +37,7 @@ ul li a {
   margin-bottom: 10px;
 }
 .active {
-  color: #0099FF;
+  color: #1c3f57;
 }
 .bt{
   background-color: #7fc7c7;
@@ -78,4 +78,7 @@ padding: 20px;
 }
 input{
 margin: 0;
+}
+.offset-lg-2, .offset-md-1{
+  margin:10px;
 }
