@@ -29,9 +29,13 @@ ul li a {
 .register{
   margin-top: 20px;
 }
+.row{
+  margin: 0 !important;
+}
 .header{
   background-color:#7fc7c7;
   padding: 0;
+  margin-bottom: 20px;
   box-sizing: border-box;
 }
 .content h2 {
