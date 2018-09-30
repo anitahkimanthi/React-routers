@@ -12,9 +12,8 @@ class Main extends Component {
       
     return (
         <HashRouter>
-        <div>
-        <h1>React router example</h1>
-        <ul className="header">
+        <div className="header">
+        <ul>
         <li><NavLink exact to="/">Home</NavLink></li>
         <li><NavLink to="/stuff">Stuff</NavLink></li>
         <li><NavLink to="/Testimonials">Testimonials</NavLink></li>
