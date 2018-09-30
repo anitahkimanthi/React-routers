@@ -1,5 +1,5 @@
 body {
-  background-color:#7fc7c7;
+  background-color: #1c3f57;
   margin: 0;
 }
 h1, h2, p, ul, li {
@@ -11,7 +11,7 @@ ul li {
   margin: 0;
 }
 ul {
-  background-color: #1c3f57;
+  background-color:#7fc7c7;
   padding: 0;
 }
 
@@ -54,7 +54,9 @@ ul li a {
   text-decoration: none;
   color: #fff;
 }
-
+.Form{
+  background-color: #fff;
+}
 .container{
   margin: 0;
   padding: 0;
@@ -63,10 +65,10 @@ button{
   width: 100%;
   color: #fff;
   margin-top: 10px;
-  background-color: #ea5729;;
+  background-color: #1c3f57;
 }
 h3{
-background-color: #ea5729;
+background-color: #7fc7c7;
 text-align: center;
 color: #fff;  
 padding: 20px;

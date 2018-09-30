@@ -38,7 +38,7 @@ handleInputChange = (event)=>{
               <form action="/action_page.php" onChange={this.handleSubmit}>
                   <div className="form-group">
                       <label htmlFor="email">Username:</label>
-                      <input onChange={this.handleInputChange} type="email" method="POST" className="form-control" id="username" placeholder="Enter email" name="email"/>
+                      <input onChange={this.handleInputChange} type="email" method="POST" className="form-control" id="username" placeholder="Enter Userename" name="email"/>
                   </div>
                   <div className="form-group">
                       <label htmlFor="email">Email:</label>
@@ -46,7 +46,7 @@ handleInputChange = (event)=>{
                   </div>
                   <div className="form-group">
                       <label htmlFor="email">Organisation:</label>
-                      <input onChange={this.handleInputChange} type="email" method="POST" className="form-control" id="Organisation" placeholder="Enter email" name="email"/>
+                      <input onChange={this.handleInputChange} type="email" method="POST" className="form-control" id="Organisation" placeholder="Enter  Organisation" name="email"/>
                   </div>
                   <div className="form-group">
                       <label htmlFor="pwd">Password:</label>
