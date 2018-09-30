@@ -24,8 +24,8 @@ class Main extends Component {
                 </ul>
 
                 <div class="col-sm-12 col-md-3 col-lg-3">
-                  <a className="bt"> <NavLink to="/Signup">sign up</NavLink></a>
-                  <a className="bt"><NavLink to="/Login">Login</NavLink></a> 
+                  <span className="bt"> <NavLink to="/Signup">SIGNUP</NavLink></span>
+                  <span className="bt"><NavLink to="/Login">LOGIN</NavLink></span> 
                 </div>
               </div> 
             </div>
