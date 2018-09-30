@@ -8,27 +8,33 @@ import Signup from "./Signup";
 import Login from "./Login";
  
 
-var isMobile = {
-  Android: function() {
-      return navigator.userAgent.match(/Android/i);
-  },
-  BlackBerry: function() {
-      return navigator.userAgent.match(/BlackBerry/i);
-  },
-  iOS: function() {
-      return navigator.userAgent.match(/iPhone|iPad|iPod/i);
-  },
-  Opera: function() {
-      return navigator.userAgent.match(/Opera Mini/i);
-  },
-  Windows: function() {
-      return navigator.userAgent.match(/IEMobile/i);
-  },
-  any: function() {
-      return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
-  }
-};
-if( isMobile.Android() ) alert('Android');
+// var isMobile = {
+//   Android: function() {
+//       return navigator.userAgent.match(/Android/i);
+//   },
+//   BlackBerry: function() {
+//       return navigator.userAgent.match(/BlackBerry/i);
+//   },
+//   iOS: function() {
+//       return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+//   },
+//   Opera: function() {
+//       return navigator.userAgent.match(/Opera Mini/i);
+//   },
+//   Windows: function() {
+//       return navigator.userAgent.match(/IEMobile/i);
+//   },
+//   any: function() {
+//       return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+//   }
+// };
+// if( isMobile.Window() ) alert('window');
+var uagent = navigator.userAgent.toLowerCase();
+       if (uagent.search("chrome") > -1)
+          alert('true');
+       else
+          alert('false');
+
 
 class Main extends Component {
   render() {
@@ -38,9 +44,9 @@ class Main extends Component {
         <HashRouter>
         
         <div className="row main">
-          <div class=" col-sm-12 col-md-12 col-lg-12 header">
-            <div class="row header">
-            <div class="col-sm-12 col-md-10 col-lg-10">
+          <div className=" col-sm-12 col-md-12 col-lg-12 header">
+            <div className="row header">
+            <div className="col-sm-12 col-md-10 col-lg-10">
                 <ul>
                   <li><NavLink exact to="/">Home</NavLink></li>
                   <li><NavLink to="/stuff">Stuff</NavLink></li>
@@ -50,7 +56,7 @@ class Main extends Component {
             </div>
                 
 
-                <div class="col-sm-12 col-md-2 col-lg-2">
+                <div className="col-sm-12 col-md-2 col-lg-2">
                   <span className="bt"> <NavLink to="/Signup">SIGNUP</NavLink></span>
                   <span className="bt"><NavLink to="/Login">LOGIN</NavLink></span> 
                 </div>
