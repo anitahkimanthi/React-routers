@@ -16,8 +16,13 @@ ul li a {
   color: #FFF;
   font-weight: bold;
   text-decoration: none;
-  padding: 15px;
+  padding: 0px 10px 0px 10px;
   display: inline-block;
+}
+dl, ol, ul {
+  margin-top: 0;
+  margin-bottom: 1rem !important;
+  margin-top: 1rem;
 }
 .content {
   
@@ -53,7 +58,7 @@ ul li a {
 }
 .bt a{
   float:right;
-  margin-top: 14px;
+  margin-top: 10px;
   border-style: none;
   padding: 4px;
   color:#fff;
@@ -70,6 +75,9 @@ button a{
 }
 .Form{
   background-color: #fff;
+}
+.form-control{
+  box-sizing: border-box !important;
 }
 .container{
   margin: 0;

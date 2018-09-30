@@ -16,12 +16,15 @@ class Main extends Component {
         <div className="row main">
           <div class=" col-sm-12 col-md-12 col-lg-12 header">
             <div class="row header">
-                <ul class="col-sm-12 col-md-10 col-lg-10">
+            <div class="col-sm-12 col-md-10 col-lg-10">
+                <ul>
                   <li><NavLink exact to="/">Home</NavLink></li>
                   <li><NavLink to="/stuff">Stuff</NavLink></li>
                   <li><NavLink to="/Testimonials">Testimonials</NavLink></li>
                   <li><NavLink to="/contact">Contact</NavLink></li>  
                 </ul>
+            </div>
+                
 
                 <div class="col-sm-12 col-md-2 col-lg-2">
                   <span className="bt"> <NavLink to="/Signup">SIGNUP</NavLink></span>
