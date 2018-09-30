@@ -54,15 +54,10 @@ ul li a {
   text-decoration: none;
   color: #fff;
 }
-row{
-  background-color: #000;
-  width: 400px;
-  height: 400px;
-}
+
 .Form{
   background-color: #fff;
-  width: 400px;
-  height: 400px;
+  width:100%;
   margin: 0 auto;
 }
 
