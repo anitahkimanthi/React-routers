@@ -12,15 +12,18 @@ class Main extends Component {
       
     return (
         <HashRouter>
-        <div className="header">
-        <ul>
+        <div className="main">
+        <div class="header">
+          <ul>
         <li><NavLink exact to="/">Home</NavLink></li>
         <li><NavLink to="/stuff">Stuff</NavLink></li>
         <li><NavLink to="/Testimonials">Testimonials</NavLink></li>
         <li><NavLink to="/contact">Contact</NavLink></li>
-        <button className="bt"><NavLink to="/Signup">sign up</NavLink></button>
-        <button className="bt"><NavLink to="/Login">Login</NavLink></button>
+        <a className="bt"> <NavLink to="/Signup">sign up</NavLink></a>
+        <a className="bt"><NavLink to="/Login">Login</NavLink></a>
         </ul>
+        
+        </div>
         
         <div className="content">
           <Route exact path="/" component={Home}/>

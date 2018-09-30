@@ -10,11 +10,7 @@ ul li {
   list-style-type: none;
   margin: 0;
 }
-ul {
-  background-color:#7fc7c7;
-  padding: 0;
-  box-sizing: border-box;
-}
+
 
 ul li a {
   color: #FFF;
@@ -30,6 +26,11 @@ ul li a {
 .checkbox{
   color: grey;
 }
+.header{
+  background-color:#7fc7c7;
+  padding: 0;
+  box-sizing: border-box;
+}
 .content h2 {
   padding: 0;
   margin: 0;
@@ -40,18 +41,18 @@ ul li a {
 .active {
   color: #1c3f57;
 }
-.bt{
-  background-color: #7fc7c7;
+.bt a{
   float:right;
   margin-top: 14px;
   border-style: none;
-  padding: 7px;
+  padding: 4px;
   margin-right:10px;
   width: 80px;
+  box-sizing: border-box;
   border-radius: 3px;
 
 }
-.bt a{
+button a{
   text-decoration: none;
   color: #fff;
 }
@@ -66,7 +67,7 @@ button{
   width: 100%;
   color: #fff;
   margin-top: 10px;
-  background-color: #1c3f57;
+  background-color: #7fc7c7;
 }
 h3{
 background-color: #7fc7c7;
