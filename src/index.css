@@ -1,7 +1,6 @@
 body {
   background-color: #1c3f57;
   margin: 0;
-  box-sizing: border-box;
 }
 h1, h2, p, ul, li {
   font-family: sans-serif;
@@ -14,6 +13,7 @@ ul li {
 ul {
   background-color:#7fc7c7;
   padding: 0;
+  box-sizing: border-box;
 }
 
 ul li a {
@@ -21,7 +21,6 @@ ul li a {
   font-weight: bold;
   text-decoration: none;
   padding: 15px;
-  bode
   display: inline-block;
 }
 .content {
