@@ -29,8 +29,7 @@ class Login extends Component {
     return (
       <div className="container-fluid ">
         <div className="row Login">
-        <div className="col-sm-12 col-md-3 col-lg-3"></div>
-        <div className="col-sm-12 col-md-6 col-lg-6">
+        <div className="col-sm-12 col-md-6 col-lg-6 offset-lg-3">
             <div className="Form">
 
             <h3>LOGIN</h3>
@@ -50,7 +49,6 @@ class Login extends Component {
                 </form>
             </div>
         </div>
-        <div className="col-sm-12 col-md-3 col-lg-3"></div>
         </div>
         
       </div>
