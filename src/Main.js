@@ -8,11 +8,24 @@ import Signup from "./Signup";
 import Login from "./Login";
  
 
+// let isChrome = !!window.chrome && !!window.chrome.webstore; 
 
 class Main extends Component {
+
+
+  // content(){
+  //   if(isChrome){
+  //       return (
+  //           <div>Chrome</div>
+  //       )
+  //   } else {
+  //       return (
+  //           <div>Not Chrome</div>
+  //       )
+  //   }
+  // }
+
   render() {
-      
-   
     return (
         <HashRouter>
         

@@ -10,12 +10,17 @@
     <div id="root"></div>
 
     <script>
+      // navigator.userAgent.indexOf("Opera"
 
-      var uagent = navigator.userAgent.toLowerCase();
-       if (uagent.search("chrome") > -1)
-          alert('true');
+      // var uagent = navigator.userAgent.toLowerCase();
+      if((navigator.userAgent.indexOf("Opera") || navigator.userAgent.indexOf('OPR')) != -1 ) 
+      //  if (uagent.search("opera") > -1)
+          alert('this site cannot open in opera mini swtch to a different browser');
        else
-          alert('This site cant open in opera mini switch to a different brower');
+      //  return(
+        alert('true')
+      //  )
+       
 
     </script>
   </body>
