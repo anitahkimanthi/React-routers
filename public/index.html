@@ -11,15 +11,11 @@
 
     <script>
 
-      // var uagent = navigator.userAgent.toLowerCase();
-      //  if (uagent.search("chrome") > -1)
-      //     alert('true');
-      //  else
-      //     alert('This site cant open in opera mini switch to a different brower');
-      let notChrome = !/Chrome/.test(navigator.userAgent)
-    
-      let alertMessage = "Please use Google Chrome to access this site.\nSome key features do not work in browsers other than Chrome."
-      if(notChrome) alert(alertMessage)
+      var uagent = navigator.userAgent.toLowerCase();
+       if (uagent.search("chrome") > -1)
+          alert('you are using Chrome');
+       else
+          alert('This site cant open in opera mini switch to a different brower');
 
     </script>
   </body>
