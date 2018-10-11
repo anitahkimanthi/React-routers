@@ -17,12 +17,12 @@
 
     <script type="text/javascript">
       function o(){
-        var isMobile = {
+        var isAndroid = {
          Opera: function() {
              return navigator.userAgent.match(/Opera Mini/i);
                            },
                        };
-          if( isMobile.Opera() ) alert('please use another browser to open this site:)');
+          if( isAndroid.Opera() ) alert('please use another browser to open this site:)');
                   }
       window.onload = o;
      </script>
