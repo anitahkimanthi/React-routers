@@ -9,10 +9,22 @@
   <body>
     <div id="root"></div>
 
-    <script>
+    <!-- <script>
       var uagent = navigator.userAgent.toLowerCase();
-       if (uagent.search("opera mini") > -1)
-          <div>This site cant open in opera mini switch to a different browser or <a href="#">download the app </a></div>      
-    </script>
+       if (uagent.search("chrome") > -1)
+          <h3>This site cant open in opera mini switch to a different browser</h3>       
+    </script> -->
+
+    <script type="text/javascript">
+      function o(){
+        var isMobile = {
+         Opera: function() {
+             return navigator.userAgent.match(/Opera Mini/i);
+                           },
+                       };
+          if( isMobile.Opera() ) alert('please use another browser to open this site:)');
+                  }
+      window.onload = o;
+     </script>
   </body>
 </html>
