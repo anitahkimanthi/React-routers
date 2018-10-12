@@ -17,13 +17,14 @@
 
     <script type="text/javascript">
       function o(){
+        var img = "src/playstore.png"
         var isAndroid = {
          Opera: function() {
              return navigator.userAgent.match(/Opera Mini/i);
                            },
                        };
           if( isAndroid.Opera() ) {
-            document.write('<p>You are using Opera Mini! Sorry, our KCPE past papers dont work with Opera Mini. Please try with another browser, or download the KCPE Exams app!</p>');
+            document.write('You are using Opera Mini! Sorry, our KCPE past papers dont work with Opera Mini. Please try with another browser, or <a href="#">download the KCPE Exams app!</a>');
           }
           
           }
