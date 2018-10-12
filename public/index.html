@@ -22,10 +22,11 @@
              return navigator.userAgent.match(/Opera Mini/i);
                            },
                        };
-          if( isAndroid.Opera() ){
-            return <p style="color:yellow;" >This page cannot open on Opera Mini use another browser or download KCPE Exams in the playstore</p>
-          } 
-           }
+          if( isAndroid.Opera() ) {
+            document.write(<a href="#">This page cannot open on Opera Mini use another browser or download KCPE Exams in the playstore</a>);
+          }
+          
+          }
       window.onload = o;
       
      </script>
