@@ -6,6 +6,12 @@
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>React Router Example</title>
   </head>
+
+  <style type="text/css">
+    #caption{
+      margin-bottom: 30px;
+    }
+  </style>
   <body>
     <div id="root">
       <img src="playstore.png" id="image"/>
@@ -19,15 +25,13 @@
 
     <script type="text/javascript">
       function o(){
-        // var img = document.createElement('img');
-        // img.src = "http://....";
         var isAndroid = {
          Opera: function() {
              return navigator.userAgent.match(/Opera Mini/i);
                            },
                        };
           if( isAndroid.Opera() ) {
-            document.write('You are using Opera Mini! Sorry, our KCPE past papers dont work with Opera Mini. Please try with another browser, or download the <a href="https://play.google.com/store/apps/details?id=com.elimu.exams&hl=en"> KCPE Exams app!</a>  ');
+            document.write('<p id="caption" >You are using Opera Mini! Sorry, our KCPE past papers dont work with Opera Mini. Please try with another browser, or download the <a href="https://play.google.com/store/apps/details?id=com.elimu.exams&hl=en"> KCPE Exams app!</a> </p> ');
             
             document.write('You are using Opera Mini! Sorry, our KCPE past papers dont work with Opera Mini. Please try with another browser, or download the <a href="https://play.google.com/store/apps/details?id=com.elimu.exams&hl=en"> KCPE Exams app!</a>  ');
             document.body.style.backgroundColor = "#000";
